@@ -1,0 +1,161 @@
+html {
+  background-color: #e0e0eb;}
+
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 20px;}
+
+.container {
+    margin: auto;
+    width: 80%;
+    background-color: #ffffff;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    }
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Site Navigation */
+.Site-nav {
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  
+  .Site-nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .Site-nav li {
+    list-style: none;
+    float: left;
+    margin-right: 5px;
+  }
+  
+  .Site-nav a {
+    display: block;
+    color: #538cc6;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 3px solid #538cc6;
+    border-bottom: none;
+    border-radius: 15px;
+  }
+  
+  .Site-nav a:hover {
+    background-color: #e5e9dc;
+  }
+  
+  /* End Site Navigation */
+
+header {
+    color: #ff4d4d;
+    text-align: center;
+    border-bottom: 3px solid #85adad;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    margin: 20px 0px 20px 0px;
+    padding; 40px;
+    font-weight: bold;
+    font-size: 167%;
+    font-style: italic;
+    text-decoration:underline;
+    letter-spacing: 0,2em;
+    word-spacing: 0,5em;
+}
+
+.tekst {
+    float: left;
+    width: 50%%;
+    padding: 20px;
+    border: 1px solid #ff4d4d;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+footer {
+    color:#85adad;
+    text-align: center;
+    border-top: 3px solid #85adad;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 85%
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Form Styles */
+.mijn-formulier {
+    padding: 20px;
+}
+
+.mijn-formulier .formulier {
+padding-bottom: 15px;
+}
+
+.mijn-formulier label{
+display: block;
+}
+
+.mijn-formulier input [type="text"]
+    padding: 10px; 
+    width: 100%;
+}
+
+.mijn-formulier textarea {
+    padding: 10px; 
+    width: 100%;
+}
+
+/* END Form Styles */
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1;
+}
+
+/* Media codes
+// Smartphones (portrait)
+minimale breedte : 320px;
+
+// Tablets (portrait)
+minimale breedte : 768px
+
+// Desktop 
+minimale breedte : 1024px 
+in regel staat
+max voor kleiner dan en min voor groter dan */
+
+@media (min-width: 1042px) {
+body {
+  background-color: yellow;
+  color: red;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+header h1 {
+  font-size:  16px;
+}
+.Site-nav {
+  font-size:  16px;
+}
+}
