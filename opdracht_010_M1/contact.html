@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <!-- hier zet je de code in de head tags -->
+   <title> Mijn eerste website! </title>
+   <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+   <!-- hier zet je de code in de body tags-->
+   <div class="container">
+   <header>
+      <h1>Contact</h1>
+   </header>
+   <nav class="Site-nav">
+      <ul class="group">
+         <li><a href="index.html">Home</a></li>
+         <li><a href="about.html">About</a></li>
+         <li><a href="#">Contact</a></li>
+         <li><a href="blog.html">Blogs</a></li>
+      </ul>
+   </nav>
+   <hr>
+   </hr>
+
+      <div class="content gebied group"> 
+         <div class="main">
+            <main>
+               <article>
+                  <section>
+                     <h2>CONTACT</h2>
+                     <p>Via Google kun je wellicht nog meer vinden:
+                        <a href="https://www.google.nl/"><em>Google</em></a> <br>
+                        Maar toch vooral via <a
+                        href="https://www.linkedin.com/in/bart-dirkson?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BTgR8xu9FQv2CXMQx1iXATw%3D%3D"><em>LinkedIn</em></a>
+                     </p>
+                  </section>
+                     <h2>Vragen? Neem contact op:</h2>
+                     <p>
+                        <Form class="mijn-formulier" name="contact" method="POST" data-netlify="true">
+                           <div class="formulier">
+                              <label for="name">Naam</label>
+                              <input type="text" name="name" id="name" placeholder="naam">
+                           </div>
+                           <div class="formulier">
+                              <label for="email">Email</label>
+                              <input type="email" name="email" id="email" placeholder="email">
+                           </div>
+                           <div class="formulier">
+                              <label for="tel">Telefoonnummer</label>
+                              <input type="tel" name="tel" id="tel" placeholder="tel">
+                           </div>
+                           <div class="formulier">
+                              <label for="age">Leeftijd</label>
+                              <input type="number" name="age" id="tel" placeholder="leeftijd">
+                           </div>
+                           <div class="formulier">
+                              <label for="data">Geboortedatum</label>
+                              <input type="date" name="date" id="date" placeholder="geboortedatum">
+                           </div>
+                           <div class="formulier">
+                              <label for="gender">Geslacht</label>
+                              <input type="radio" name="genderm" value="male" id="gender"> Man
+                              <input type="radio" name="genderv" value="Female" id="gender"> Vrouw
+                              <input type="radio" name="gendero" value="Other" id="gender"> Anders
+                           </div>
+                           <div class="formulier">
+                              <label for="keuken">Favo keuken <em>(meer opties mag)</em></label>
+                              <input type="checkbox" name="Frans" value="Frans" id="Frans"> Frans
+                              <input type="checkbox" name="Spaans" value="Spaans" id="Spaans"> Spaans
+                              <input type="checkbox" name="Italiaans" value="Italiaans" id="Italiaans"> Italiaans
+                              <input type="checkbox" name="Arabisch" value="Arabisch" id="Arabisch"> Arabisch
+                           </div>
+                           <div class="formulier">
+                              <label for="favcolor">Gewenste kleur short:</label>
+                              <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+                           </div>
+                           <div class="formulier">
+                              <label for="biografie">Biografie</label>
+                              <textarea rows="10" name="biografie" id="biografie" placeholder="biografie">Vertel iets over jezelf </textarea>
+                           </div>
+                           <div class="formulier"> Je laatste recept? <br>
+                              <form action="/action_page.php"> 
+                              <input type="file" id="myFile" name="filename">
+                              </form>
+                           </div>
+                           <div class=formulier"> 
+                              <label for="homepage"></label> Deel je recepten homepage: <br>
+                              <input type="url" id="homepage" name="homepage"> <br>
+                           </div> <br>
+                           <div class="formulier"> Reset het formulier: <br>
+                              <input type="reset">
+                           </div>
+                           <div class="formulier"> <br>
+                           <input class="submit" type="submit" value="submit" placeholder="submit">
+                           </div>
+                        </Form>
+                     </p>
+               </article>
+            </main>
+         </div>
+      </div>
+   <footer>
+      <h3>Hier staat de footer</h3>
+   </footer>
+</div>
+</body>
+
+</html>
